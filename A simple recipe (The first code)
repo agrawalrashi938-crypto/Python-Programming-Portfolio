@@ -1,0 +1,13 @@
+print("This code will guide you to make Fried rice.")
+#Ingridients
+veggies_rice = "carrot, capsicum, cabbage, onion and garlic"
+print(" 1. Heat cooking oil of any type in a deep pan.")
+print(" 2. Add Jeera (Cumin seeds) once the oil is heated and flame is lowered.")
+print(" 3. Add" , veggies_rice)
+print(" 4. Add rice. (leftover rice is best)")
+print(" 5. Mix the contents throughly. ")
+print(" 6. Serve hot.")
+print( " Your fried rice is ready " " !")
+#taking suggestions
+suggestion = input("Enter your secret ingridient.")
+print("Thanks for giving your valuable suggestion !
