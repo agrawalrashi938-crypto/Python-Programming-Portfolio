@@ -1,0 +1,23 @@
+print("Welcome to the Python calculator !")
+print("Please enter the operation you want to conduct.")
+
+# Using float instead of int to take both whole numbers and decimals.
+operation = input("Enter either +, -, * or / :")
+n1 = float(input("Enter your first number :"))
+n2 = float(input("Enter your second number :"))
+
+if operation == '+':
+    print(n1, operation, n2, "=", n1 + n2)
+elif operation == '-':
+    print(n1, operation, n2, "=", n1 - n2)
+elif operation == '*':
+    print(n1, operation, n2, "=", n1 * n2)
+elif operation == '/':
+    # This is a 'nested' check specifically for division
+    if n2 != 0:
+        print(n1, operation, n2, "=", n1 / n2)
+    else:
+        print("Error: Cannot divide by zero !")
+else:
+    # This 'else' lines up with the 'if' on line 7
+    print("Invalid operator, please enter a valid one !")
